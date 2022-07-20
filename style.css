@@ -1,0 +1,186 @@
+body {}
+
+/* ----section-1----- */
+.sec-1 {
+    Width: 1321px;
+    Height: 646px;
+    border: 1px solid gray;
+    margin-right: 152px;
+    margin-left: 180px;
+    margin-top: 76px;
+    background-color: #161616;
+    border-radius: 32px;
+}
+
+.sec-1-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5px;
+    margin-top: 111px;
+    margin-left: 100px;
+}
+
+.sec-1-info {
+    width: 531px;
+    height: 424px;
+    color: #FFFFFF;
+    transition: width 5s, height 5s, transform 5s;
+}
+
+.sec-1-img {
+    width: 581px;
+    height: 800px;
+    margin-bottom: auto;
+}
+
+
+
+.player:hover {
+    transform: rotate(60deg);
+}
+
+.sec-1-info h1 {
+    font-Weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    transition: width 10s ease 1s, height 5s;
+}
+
+.sec-1-info h1:hover {
+    color: coral;
+    font-size: 150px;
+    line-height: 120px;
+
+}
+
+.sec-1-info p {
+    font-size: 1em;
+}
+
+.button-1 {
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+}
+
+/* -----section-2------ */
+.sec-2 {
+    Width: 1321px;
+    Height: 1100px;
+    border: 2px solid #FFFFFF;
+    margin-top: 80px;
+    margin-left: 240px;
+}
+
+.VS {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+#vs {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-buttons {
+    background-color: #161616;
+    width: 312px;
+    height: 175px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 0%;
+    padding-left: 0%;
+
+
+}
+
+.div-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.float-button {
+    border-radius: 5px;
+    background-color: bisque;
+    color: black;
+    font-weight: 700;
+    padding: 5px;
+}
+
+#blog {
+    background-color: purple;
+    color: white;
+    font-weight: 700;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.button-transfer {
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.transfer {
+    width: 312px;
+    height: 362px;
+}
+
+#span-2 {
+    margin-left: 10px;
+}
+
+/* --------FOOTER--------- */
+
+Footer {
+    width: 2000px;
+    height: 444px;
+    background-color: #161616;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 120px;
+
+}
+
+Footer h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+
+}
+
+Footer hr {
+    text-align: center;
+    width: 70%;
+    font-weight: 500;
+}
+
+#footer-span {
+    text-align: center;
+}
+
+#footer-span span {
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#s-media span {
+    margin-left: 25px;
+}
+
+#s-media {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+@media screen and (max-width:576px) {}
